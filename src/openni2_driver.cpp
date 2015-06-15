@@ -804,10 +804,10 @@ output_mode_enum = gen.enum([  gen.const(  "SXGA_30Hz", int_t, 1,  "1280x1024@30
 
   video_modes_lookup_[5] = video_mode;
 
-  // VGA_25Hz
+  // VGA_15Hz
   video_mode.x_resolution_ = 640;
   video_mode.y_resolution_ = 480;
-  video_mode.frame_rate_ = 25;
+  video_mode.frame_rate_ = 15;
 
   video_modes_lookup_[6] = video_mode;
 
